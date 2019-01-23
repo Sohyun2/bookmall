@@ -37,4 +37,9 @@ public class MemberVO {
 	public void setMemberPassword(String memberPassword) {
 		this.memberPassword = memberPassword;
 	}
+	@Override
+	public String toString() {
+		return memberNo + ", " + memberName + ", " + memberTel + ", " + memberEmail + ", " + memberPassword;
+	}
+	
 }

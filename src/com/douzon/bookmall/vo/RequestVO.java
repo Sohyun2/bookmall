@@ -36,5 +36,10 @@ public class RequestVO {
 	}
 	public void setMemeberNo(long memeberNo) {
 		this.memeberNo = memeberNo;
+	}
+	@Override
+	public String toString() {
+		return memeberNo + ", " + memberName + ", " + memberEmail + ", " + requstPrice + ", " + odAddress;
 	}	
+	
 }
